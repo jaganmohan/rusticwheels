@@ -10,16 +10,30 @@ DomainHosting:
 
 ## Setting Up Google Cloud Platform For Web Hosting
 
+This assumes you already followed gcloud setup and initialization. Refer https://cloud.google.com/sdk/docs/install-sdk.
+
 ### Setting Cloud Storage
 
 - Create a bucket with unique name, multi-region availability, standard storage, allow public access, default soft-delete policy
 - Grant Permission to bucket data to allow public acess https://cloud.google.com/storage/docs/access-control/making-data-public#buckets
 
-# Nuxt Minimal Starter
+### Deploying Service On Cloud Run
+
+- gcloud run deploy --source --allow-unauthenticated (this will also ask the preferred region and opting for artifact registry) from local terminal.
+- you can also deploy directly from repository https://cloud.google.com/run/docs/quickstarts/deploy-continuously#deploy-from-repo
+- Watch https://www.youtube.com/watch?v=eemS-UTjdb0 for supported javascript frameworks.
+
+### Linking Service To A Domain
+
+There are two ways to use a custom domain for a Cloud Run hosted service which I liked:
+- using Firebase
+- using Cloud Global Load Balancer
+
+## Nuxt Minimal Starter
 
 Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
-## Setup
+### Setup
 
 Make sure to install dependencies:
 
@@ -37,7 +51,7 @@ yarn install
 bun install
 ```
 
-## Development Server
+### Development Server
 
 Start the development server on `http://localhost:3000`:
 
@@ -55,7 +69,7 @@ yarn dev
 bun run dev
 ```
 
-## Production
+### Production
 
 Build the application for production:
 

@@ -1,12 +1,43 @@
 <template>
   <div class="min-h-screen">
     <div id="scrollviewparent">
+
       <div style="height: auto; width: auto; ">
         <section id="section1" class="scrollviewsection full-view-img-background">
           <figure class="section-figure">
-            <h1 class="text-lg">Hello!</h1>
+            <h1 class="text-9xl">Hello!</h1>
+            <h1 class="text-5xl p-10">Welcome to RusticWheels...</h1>
           </figure>
         </section>
+
+        <section class="full-view-img-background bg-neutral-100 place-items-center flex justify-center">
+          <div class="grid grid-cols-[1fr_1fr] w-9/10 md:w-3/5 place-items-center">
+            
+            <div class="grid grid-rows-flow gap-y-5 text-neutral-700 p-5 md:p-20 text-xs md:text-lg">
+              <p class="text-base md:text-xl">My name is Jaganmohan a.k.a J.</p>
+              <p>I quit my job in the summer of 2025 as a full-time software engineer to explore the world on my bike RusticWheels.</p>
+              <p>The first time I went hiking in India is when I discovered my connection with nature.
+                It could have been due to just how I grew up as a child mostly running around in grass fields, swimming in local ponds and walking in suburban woods.
+                Or it could have been the feeling of freedom, since as a child I never visited many places except a yearly trip to my gandma's under tight supervision of my parents.
+              </p>
+              <p>
+                After moving to the United States to pursue my Masters, I had more opportunities of hiking in the vast national forests and travelling to other countries.
+                One trip which actually solidified my connection with nature and our planet, is a thru-hike in Alaska in Denali National Park and Chugach National Forest.
+              </p>
+              <p>
+                That's when I decided I am going to explore the entire world and experience our planet, not just for people and culture, but also for the geography, flora and fauna.
+              </p>
+              <p class="italic">
+                "I feel as a human it is a necessary to explore the world on our own to comprehend the value of life, food, relationships, which we have taken for granted living in our comfortable bubbles."
+              </p>
+            </div>
+            <div>
+              <img src="https://storage.googleapis.com/rusticwheels_website_test/IMG_4459.png" class="object-cover min-w-full min-h-full"/>
+            </div>
+
+          </div>
+        </section>
+
       </div>
     </div>
   </div>
@@ -46,7 +77,7 @@
   .section-figure{
     text-align: center;
     position: absolute;
-    top: 50%;
+    top: 70%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
