@@ -1,44 +1,50 @@
 <template>
   <div class="min-h-screen">
-    <div id="scrollviewparent">
+    <div style="height: auto; width: auto; ">
 
-      <div style="height: auto; width: auto; ">
-        <section id="section1" class="scrollviewsection full-view-img-background">
-          <figure class="section-figure">
-            <h1 class="text-9xl">Hello!</h1>
-            <h1 class="text-5xl p-10">Welcome to RusticWheels...</h1>
-          </figure>
-        </section>
+      <section id="section1" class="w-full h-screen full-view-img-background">
+        <div id="section1-figure">
+          <h1 class="text-9xl text-shadow-lg">Hello!</h1>
+          <h1 class="text-6xl text-shadow-lg p-10">Welcome to RusticWheels...</h1>
+        </div>
+      </section>
 
-        <section class="full-view-img-background bg-neutral-100 place-items-center flex justify-center">
-          <div class="grid grid-cols-[1fr_1fr] w-9/10 md:w-3/5 place-items-center">
-            
-            <div class="grid grid-rows-flow gap-y-5 text-neutral-700 p-5 md:p-20 text-xs md:text-lg">
-              <p class="text-base md:text-xl">My name is Jaganmohan a.k.a J.</p>
-              <p>I quit my job in the summer of 2025 as a full-time software engineer to explore the world on my bike RusticWheels.</p>
-              <p>The first time I went hiking in India is when I discovered my connection with nature.
-                It could have been due to just how I grew up as a child mostly running around in grass fields, swimming in local ponds and walking in suburban woods.
-                Or it could have been the feeling of freedom, since as a child I never visited many places except a yearly trip to my gandma's under tight supervision of my parents.
-              </p>
-              <p>
-                After moving to the United States to pursue my Masters, I had more opportunities of hiking in the vast national forests and travelling to other countries.
-                One trip which actually solidified my connection with nature and our planet, is a thru-hike in Alaska in Denali National Park and Chugach National Forest.
-              </p>
-              <p>
-                That's when I decided I am going to explore the entire world and experience our planet, not just for people and culture, but also for the geography, flora and fauna.
-              </p>
-              <p class="italic">
-                "I feel as a human it is a necessary to explore the world on our own to comprehend the value of life, food, relationships, which we have taken for granted living in our comfortable bubbles."
-              </p>
-            </div>
-            <div>
-              <img src="https://storage.googleapis.com/rusticwheels_website_test/IMG_4459.png" class="object-cover min-w-full min-h-full"/>
-            </div>
-
+      <section class="w-full min-h-screen bg-neutral-100 place-items-center flex justify-center">
+        <div class="grid grid-cols-1 xl:grid-cols-[1fr_1fr] w-9/10 xl:w-4/5 2xl:w-3/5 place-items-center">
+          
+          <div class="p-5">
+            <img src="https://storage.googleapis.com/rusticwheels_website_test/IMG_4459.png" class="object-cover min-w-full min-h-full"/>
           </div>
-        </section>
 
-      </div>
+          <div class="grid grid-rows-flow gap-y-5 text-neutral-700 p-5 xl:p-10 text-xs md:text-sm xl:text-lg">
+            <p class="text-base md:text-xl">My name is Jaganmohan a.k.a J.</p>
+            <p>I quit my job in the summer of 2025 as a full-time software engineer to explore the world on my bike RusticWheels.</p>
+            <p>The first time I went hiking in India is when I discovered my connection with nature.
+              It could have been due to just how I grew up as a child mostly running around in grass fields, swimming in local ponds and walking in suburban woods.
+              Or it could have been the feeling of freedom, since as a child I never visited many places except a yearly trip to my gandma's under tight supervision of my parents.
+            </p>
+            <p>
+              After moving to the United States to pursue my Masters, I had more opportunities of hiking in the vast national forests and travelling to other countries.
+              One trip which actually solidified my connection with nature and our planet, is a thru-hike in Alaska in Denali National Park and Chugach National Forest.
+            </p>
+            <p>
+              That's when I decided I am going to explore the entire world and experience our planet, not just for people and culture, but also for the geography, flora and fauna.
+            </p>
+          </div>
+          
+        </div>
+      </section>
+
+      <section id="section3" class="w-full min-h-200 max-h-screen full-view-img-background grid place-items-center">
+        <div class="absolute w-2/3 sm:w-2/5 h-3/5 xl:w-130 xl:h-150 2xl:m-2/8 2xl:left-4/7 bg-neutral-100 place-content-center">
+          <p class="text-sm/7 md:text-base/10 xl:text-2xl/12 justify-center pl-5 pr-5 md:pl-10 md:pr-10 tracking-wide text-center">
+              I feel as a human, it is necessary to explore the world on our own for some part of our lives, 
+              to comprehend the value of food, resources, relationships, privileges and Life, 
+              which we have taken for granted living in our comfortable bubbles.
+          </p>
+        </div>
+      </section>
+
     </div>
   </div>
 </template>
@@ -59,42 +65,25 @@
   }
 
   #section1{
-    background-image: url('https://storage.googleapis.com/rusticwheels_website_test/802.jpg');
-  }
-
-  #section2{
-    background-image: url('https://storage.googleapis.com/rusticwheels_website_test/871.jpg');
+    background-image: url('https://storage.googleapis.com/rusticwheels_website_test/DSC00718.jpg');
+    mask-image: linear-gradient(black 70%, transparent 100%);
   }
 
   #section3{
-    background-image: url('https://storage.googleapis.com/rusticwheels_website_test/DSC00718.jpg');
+    background-image: url('https://storage.googleapis.com/rusticwheels_website_test/802.jpg');
   }
 
   #section4{
     background-image: url('https://storage.googleapis.com/rusticwheels_website_test/842.jpg');
   }
 
-  .section-figure{
+  #section1-figure{
     text-align: center;
     position: absolute;
-    top: 70%;
+    top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
     z-index: 10;
-  }
-
-  .overlay-dark{
-    background-color: black;
-    opacity: 0.3;
-    position: relative; 
-    height: inherit; 
-    width: auto; 
-    z-index:1;
-    border-radius: 20px;
-  }
-
-  .overlay-dark-gradient{
-    background:linear-gradient(to bottom, transparent 60%, black 100%);
   }
   </style>

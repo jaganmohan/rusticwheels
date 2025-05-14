@@ -88,7 +88,7 @@
 
   </NavigationMenuRoot>
 
-  <div class="h-15 relative"></div>
+  <div class="h-15 relative bg-white"></div>
 
   <NuxtPage />
 

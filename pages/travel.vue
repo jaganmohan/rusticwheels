@@ -90,15 +90,4 @@
 
 <style>
 
-.full-view-img-background{
-    background-position: center; 
-    background-repeat: no-repeat; 
-    background-size: cover;
-    height: 100vh; 
-    width: 100%;
-    position: relative;
-    margin: auto;
-    background-image: url('/802.jpg');
-  }
-
 </style>
