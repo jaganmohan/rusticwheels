@@ -13,5 +13,8 @@ export default defineNuxtConfig({
     plugins: [
       tailwindcss()
     ]
-  }
+  },
+  app: {
+    pageTransition: { name: 'page', mode: 'out-in' }
+  },  
 })

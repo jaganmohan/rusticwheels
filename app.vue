@@ -5,45 +5,40 @@
       <NavigationMenuItem>
         <NavigationMenuLink
           class="text-sky-700 hover:text-stone-900 focus:shadow-1g block select-none rounded-[4px] px-3 py-2 text-lg font-medium leading-none no-underline outline-none focus:shadow-[0_0_0_2px] hover:underline hover:underline-offset-8"
-          href="/"
         >
-          RusticWheels
+          <NuxtLink to="/">RusticWheels</NuxtLink>
         </NavigationMenuLink>
       </NavigationMenuItem>
 
       <NavigationMenuItem>
         <NavigationMenuLink
           class="text-grass11 hover:text-sky-900 focus:shadow-1g block select-none rounded-[4px] px-3 py-2 text-lg font-medium leading-none no-underline outline-none focus:shadow-[0_0_0_2px] hover:underline hover:underline-offset-8"
-          href="/travel"
         >
-          Travel
+          <NuxtLink to="/travel">Travel</NuxtLink>
         </NavigationMenuLink>
       </NavigationMenuItem>
 
       <NavigationMenuItem>
         <NavigationMenuLink
           class="text-grass11 hover:text-sky-900 focus:shadow-1g block select-none rounded-[4px] px-3 py-2 text-lg font-medium leading-none no-underline outline-none focus:shadow-[0_0_0_2px] hover:underline hover:underline-offset-8"
-          href="/messages"
         >
-          Messages
+          <NuxtLink to="/messages">Messages</NuxtLink>
         </NavigationMenuLink>
       </NavigationMenuItem>
 
       <NavigationMenuItem>
         <NavigationMenuLink
           class="text-grass11 hover:text-sky-900 focus:shadow-1g block select-none rounded-[4px] px-3 py-2 text-lg font-medium leading-none no-underline outline-none focus:shadow-[0_0_0_2px] hover:underline hover:underline-offset-8"
-          href="/stories"
         >
-          Stories
+          <NuxtLink to="/stories">Stories</NuxtLink>
         </NavigationMenuLink>
       </NavigationMenuItem>
 
       <NavigationMenuItem>
         <NavigationMenuLink
           class="text-grass11 hover:text-sky-900 focus:shadow-1g block select-none rounded-[4px] px-3 py-2 text-lg font-medium leading-none no-underline outline-none focus:shadow-[0_0_0_2px] hover:underline hover:underline-offset-8"
-          href="/gear"
         >
-          Gear
+          <NuxtLink to="/gear">Gear</NuxtLink>
         </NavigationMenuLink>
       </NavigationMenuItem>
 
@@ -160,6 +155,16 @@ body {
 
 a:any-link, a:focus {
     outline: none;
+}
+
+.page-enter-active,
+.page-leave-active {
+  transition: all 0.3s;
+}
+.page-enter-from,
+.page-leave-to {
+  opacity: 0;
+  filter: blur(1rem);
 }
 
 </style>

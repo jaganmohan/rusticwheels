@@ -7,7 +7,7 @@
     </div>
     <div class="grid grid-flow-row gap-y-10 p-5 lg:p-15 w-full md:w-5/6 place-content-center bg-neutral-200">
 
-      <a href="/travelSub/alaska">
+      <NuxtLink to="/travelSub/alaska">
       <div class="grid grid-cols-1 xl:grid-cols-[1fr_2fr] shadow-sm hover:shadow-2xl rounded-lg bg-neutral-100">
 
         <div class="place-content-center m-2">
@@ -24,7 +24,7 @@
         </div>
 
       </div>
-      </a>
+      </NuxtLink>
 
       <div class="grid grid-cols-1 xl:grid-cols-[1fr_2fr] shadow-sm hover:shadow-2xl rounded-lg bg-neutral-100">
 
