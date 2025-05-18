@@ -13,7 +13,7 @@
         <div class="grid grid-cols-1 xl:grid-cols-[1fr_1fr] w-9/10 xl:w-4/5 2xl:w-3/5 place-items-center">
           
           <div class="p-5">
-            <img src="https://storage.googleapis.com/rusticwheels_website_test/IMG_4459.png" class="object-cover min-w-full min-h-full"/>
+            <img src="https://storage.googleapis.com/rusticwheels/IMG_4459.png" class="object-cover min-w-full min-h-full"/>
           </div>
 
           <div class="grid grid-rows-flow gap-y-5 text-neutral-700 p-5 xl:p-10 text-xs md:text-sm xl:text-lg">
@@ -21,7 +21,7 @@
             <p>I quit my job in the summer of 2025 as a full-time software engineer to explore the world on my bike RusticWheels.</p>
             <p>The first time I went hiking in India is when I discovered my connection with nature.
               It could have been due to just how I grew up as a child mostly running around in grass fields, swimming in local ponds and walking in suburban woods.
-              Or it could have been the feeling of freedom, since as a child I never visited many places except a yearly trip to my gandma's under tight supervision of my parents.
+              Or it could have been the feeling of freedom, since as a child I never visited many places except a yearly trip to my grandma's under tight supervision of my parents.
             </p>
             <p>
               After moving to the United States to pursue my Masters, I had more opportunities of hiking in the vast national forests and travelling to other countries.
@@ -65,16 +65,16 @@
   }
 
   #section1{
-    background-image: url('https://storage.googleapis.com/rusticwheels_website_test/DSC00718.jpg');
+    background-image: url('https://storage.googleapis.com/rusticwheels/DSC00718.jpg');
     mask-image: linear-gradient(black 70%, transparent 100%);
   }
 
   #section3{
-    background-image: url('https://storage.googleapis.com/rusticwheels_website_test/802.jpg');
+    background-image: url('https://storage.googleapis.com/rusticwheels/802.jpg');
   }
 
   #section4{
-    background-image: url('https://storage.googleapis.com/rusticwheels_website_test/842.jpg');
+    background-image: url('https://storage.googleapis.com/rusticwheels/842.jpg');
   }
 
   #section1-figure{

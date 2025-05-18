@@ -11,7 +11,7 @@
       <div class="grid grid-cols-1 xl:grid-cols-[1fr_2fr] shadow-sm hover:shadow-2xl rounded-lg bg-neutral-100">
 
         <div class="place-content-center m-2">
-          <img src="https://storage.googleapis.com/rusticwheels_website_test/802.jpg" class="object-cover rounded-sm hover:shadow-xl min-w-full min-h-full"/>
+          <img src="https://storage.googleapis.com/rusticwheels/802.jpg" class="object-cover rounded-sm hover:shadow-xl min-w-full min-h-full"/>
         </div>
         <div class="place-content-center m-2 lg:pl-10">
           <div class="grid grid-flow-row md:grid-rows-[1fr_3fr_1fr] min-w-full min-h-full">
@@ -29,7 +29,7 @@
       <div class="grid grid-cols-1 xl:grid-cols-[1fr_2fr] shadow-sm hover:shadow-2xl rounded-lg bg-neutral-100">
 
         <div class="place-content-center m-2">
-          <img src="https://storage.googleapis.com/rusticwheels_website_test/842.jpg" class="object-cover rounded-sm hover:shadow-xl min-w-full min-h-full"/>
+          <img src="https://storage.googleapis.com/rusticwheels/842.jpg" class="object-cover rounded-sm hover:shadow-xl min-w-full min-h-full"/>
         </div>
         <div class="place-content-center m-2 lg:pl-10">
           <div class="grid grid-flow-row md:grid-rows-[1fr_3fr_1fr] min-w-full min-h-full">
@@ -47,7 +47,7 @@
       <div class="grid grid-cols-1 xl:grid-cols-[1fr_2fr] shadow-sm hover:shadow-2xl rounded-lg bg-neutral-100">
 
         <div class="place-content-center m-2">
-          <img src="https://storage.googleapis.com/rusticwheels_website_test/871.jpg" class="object-cover rounded-sm hover:shadow-xl min-w-full min-h-full"/>
+          <img src="https://storage.googleapis.com/rusticwheels/871.jpg" class="object-cover rounded-sm hover:shadow-xl min-w-full min-h-full"/>
         </div>
         <div class="place-content-center m-2 lg:pl-10">
           <div class="grid grid-flow-row md:grid-rows-[1fr_3fr_1fr] min-w-full min-h-full">
@@ -64,7 +64,7 @@
       <div class="grid grid-cols-1 xl:grid-cols-[1fr_2fr] shadow-sm hover:shadow-2xl rounded-lg bg-neutral-100">
 
         <div class="place-content-center m-2">
-          <img src="https://storage.googleapis.com/rusticwheels_website_test/HawaiiSunset1.jpg" class="object-cover rounded-sm hover:shadow-xl min-w-full min-h-full"/>
+          <img src="https://storage.googleapis.com/rusticwheels/HawaiiSunset1.jpg" class="object-cover rounded-sm hover:shadow-xl min-w-full min-h-full"/>
         </div>
         <div class="place-content-center m-2 lg:pl-10">
           <div class="grid grid-flow-row md:grid-rows-[1fr_3fr_1fr] min-w-full min-h-full">

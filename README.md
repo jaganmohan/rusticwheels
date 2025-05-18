@@ -4,9 +4,9 @@ This website is designed to log my bikepacking adventure.
 
 ## Tech Stack
 
-Development: Nuxt + Vue + RekaUI + TailwindCss
-Website Hosting: Google Cloud Platform (Cloud Storage + Cloud Run)
-DomainHosting: 
+- Development: Nuxt + Vue + RekaUI + TailwindCss
+- Website Hosting: Google Cloud Platform (Cloud Storage + Cloud Run)
+- DomainHosting: Temporarily using native GCP DNS
 
 ## Setting Up Google Cloud Platform For Web Hosting
 
