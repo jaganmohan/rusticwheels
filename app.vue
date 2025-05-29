@@ -1,10 +1,11 @@
 <template>
-  <NavigationMenuRoot v-model="currentTrigger"  class="fixed z-[1] flex-auto w-full shadow-md grid grid-flow-col bg-stone-200 h-15 content-center">
-    <NavigationMenuList class="m-0 flex w-full list-none p-1 text-lg">
+  
+  <NavigationMenuRoot v-model="currentTrigger" class="fixed z-[1] flex-auto w-full shadow-md grid grid-flow-col bg-stone-200 h-15 content-center justify-items-center">
+    <NavigationMenuList class="m-0 flex w-full list-none p-1 text-lg gap-4 items-baseline">
 
       <NavigationMenuItem>
         <NavigationMenuLink
-          class="text-sky-700 hover:text-stone-900 focus:shadow-1g block select-none rounded-[4px] px-3 py-2 text-lg font-medium leading-none no-underline outline-none focus:shadow-[0_0_0_2px] hover:underline hover:underline-offset-8"
+          class="text-sky-700 hover:text-stone-900 focus:shadow-1g block select-none rounded-[4px] text-3xl font-semibold leading-none no-underline outline-none focus:shadow-[0_0_0_2px] hover:underline hover:underline-offset-8"
         >
           <NuxtLink to="/">RusticWheels</NuxtLink>
         </NavigationMenuLink>
@@ -12,51 +13,15 @@
 
       <NavigationMenuItem>
         <NavigationMenuLink
-          class="text-grass11 hover:text-sky-900 focus:shadow-1g block select-none rounded-[4px] px-3 py-2 text-lg font-medium leading-none no-underline outline-none focus:shadow-[0_0_0_2px] hover:underline hover:underline-offset-8"
-        >
-          <NuxtLink to="/travel">Travel</NuxtLink>
-        </NavigationMenuLink>
-      </NavigationMenuItem>
-
-      <NavigationMenuItem>
-        <NavigationMenuLink
-          class="text-grass11 hover:text-sky-900 focus:shadow-1g block select-none rounded-[4px] px-3 py-2 text-lg font-medium leading-none no-underline outline-none focus:shadow-[0_0_0_2px] hover:underline hover:underline-offset-8"
-        >
-          <NuxtLink to="/messages">Messages</NuxtLink>
-        </NavigationMenuLink>
-      </NavigationMenuItem>
-
-      <NavigationMenuItem>
-        <NavigationMenuLink
-          class="text-grass11 hover:text-sky-900 focus:shadow-1g block select-none rounded-[4px] px-3 py-2 text-lg font-medium leading-none no-underline outline-none focus:shadow-[0_0_0_2px] hover:underline hover:underline-offset-8"
-        >
-          <NuxtLink to="/stories">Stories</NuxtLink>
-        </NavigationMenuLink>
-      </NavigationMenuItem>
-
-      <NavigationMenuItem>
-        <NavigationMenuLink
-          class="text-grass11 hover:text-sky-900 focus:shadow-1g block select-none rounded-[4px] px-3 py-2 text-lg font-medium leading-none no-underline outline-none focus:shadow-[0_0_0_2px] hover:underline hover:underline-offset-8"
-        >
-          <NuxtLink to="/gear">Gear</NuxtLink>
-        </NavigationMenuLink>
-      </NavigationMenuItem>
-
-    </NavigationMenuList>
-
-    <NavigationMenuList class="m-0 flex list-none p-1 justify-end">
-
-      <NavigationMenuItem>
-        <NavigationMenuLink
-          class="text-grass11 hover:bg-sky-200 focus:shadow-1g block select-none rounded-[4px] px-3 py-2 text-md font-medium leading-none no-underline outline-none focus:shadow-[0_0_0_2px] "
-          href="https://instagram.com/jaganspace"
+          class="text-grass11 hover:bg-sky-200 focus:shadow-1g block select-none rounded-[4px] text-md font-medium leading-none no-underline outline-none focus:shadow-[0_0_0_2px]"
+          href="https://instagram.com/rustic_wheels"
         >
           <Icon name="skill-icons:instagram"/>
         </NavigationMenuLink>
       </NavigationMenuItem>
       <NavigationMenuItem>
         <NavigationMenuLink
-          class="text-grass11 hover:bg-sky-200 focus:shadow-1g block select-none rounded-[4px] px-3 py-2 text-md font-large leading-none no-underline outline-none focus:shadow-[0_0_0_2px] "
+          class="text-grass11 hover:bg-sky-200 focus:shadow-1g block select-none rounded-[4px] text-md font-large leading-none no-underline outline-none focus:shadow-[0_0_0_2px] "
           href="https://youtube.com/@jaganspace"
         >
           <Icon name="logos:youtube-icon"/>
@@ -64,7 +29,7 @@
       </NavigationMenuItem>
       <NavigationMenuItem>
         <NavigationMenuLink
-          class="text-grass11 hover:bg-sky-200 focus:shadow-1g block select-none rounded-[4px] px-3 py-2 text-md font-medium leading-none no-underline outline-none focus:shadow-[0_0_0_2px] "
+          class="text-grass11 hover:bg-sky-200 focus:shadow-1g block select-none rounded-[4px] text-md font-medium leading-none no-underline outline-none focus:shadow-[0_0_0_2px] "
           href="https://linkedin.com/in/jaganmohan-m"
         >
           <Icon name="logos:linkedin-icon"/>
@@ -72,8 +37,8 @@
       </NavigationMenuItem>
       <NavigationMenuItem>
         <NavigationMenuLink
-          class="text-grass11 hover:bg-sky-200 focus:shadow-1g block select-none rounded-[4px] px-3 py-2 text-md font-medium leading-none no-underline outline-none focus:shadow-[0_0_0_2px] "
-          href="https://github.com/jaganmohan"
+          class="text-grass11 hover:bg-sky-200 focus:shadow-1g block select-none rounded-[4px] text-md font-medium leading-none no-underline outline-none focus:shadow-[0_0_0_2px] "
+          href="https://github.com/jaganmohan/rusticwheels"
         >
           <Icon name="logos:github-icon"/>
         </NavigationMenuLink>
@@ -82,8 +47,9 @@
     </NavigationMenuList>
 
   </NavigationMenuRoot>
-
   <div class="h-15 relative bg-white"></div>
+
+  <!--<UNavigationMenu :items="items" class="w-full justify-center bg-stone-200 h-15" />-->
 
   <NuxtPage />
 
@@ -97,6 +63,7 @@
 <script setup lang="ts">
 
 import { ref } from 'vue'
+
 import {
   NavigationMenuContent,
   NavigationMenuIndicator,
@@ -107,6 +74,126 @@ import {
   NavigationMenuTrigger,
   NavigationMenuViewport,
 } from 'reka-ui'
+
+
+/*import type { NavigationMenuItem } from '@nuxt/ui'
+
+const items = ref<NavigationMenuItem[]>([
+  {
+    label: 'Guide',
+    icon: 'i-lucide-book-open',
+    to: '/getting-started',
+    children: [
+      {
+        label: 'Introduction',
+        description: 'Fully styled and customizable components for Nuxt.',
+        icon: 'i-lucide-house'
+      },
+      {
+        label: 'Installation',
+        description: 'Learn how to install and configure Nuxt UI in your application.',
+        icon: 'i-lucide-cloud-download'
+      },
+      {
+        label: 'Icons',
+        icon: 'i-lucide-smile',
+        description: 'You have nothing to do, @nuxt/icon will handle it automatically.'
+      },
+      {
+        label: 'Colors',
+        icon: 'i-lucide-swatch-book',
+        description: 'Choose a primary and a neutral color from your Tailwind CSS theme.'
+      },
+      {
+        label: 'Theme',
+        icon: 'i-lucide-cog',
+        description: 'You can customize components by using the `class` / `ui` props or in your app.config.ts.'
+      }
+    ]
+  },
+  {
+    label: 'Composables',
+    icon: 'i-lucide-database',
+    to: '/composables',
+    children: [
+      {
+        label: 'defineShortcuts',
+        icon: 'i-lucide-file-text',
+        description: 'Define shortcuts for your application.',
+        to: '/composables/define-shortcuts'
+      },
+      {
+        label: 'useOverlay',
+        icon: 'i-lucide-file-text',
+        description: 'Display a modal/slideover within your application.',
+        to: '/composables/use-overlay'
+      },
+      {
+        label: 'useToast',
+        icon: 'i-lucide-file-text',
+        description: 'Display a toast within your application.',
+        to: '/composables/use-toast'
+      }
+    ]
+  },
+  {
+    label: 'Components',
+    icon: 'i-lucide-box',
+    to: '/components',
+    active: true,
+    children: [
+      {
+        label: 'Link',
+        icon: 'i-lucide-file-text',
+        description: 'Use NuxtLink with superpowers.',
+        to: '/components/link'
+      },
+      {
+        label: 'Modal',
+        icon: 'i-lucide-file-text',
+        description: 'Display a modal within your application.',
+        to: '/components/modal'
+      },
+      {
+        label: 'NavigationMenu',
+        icon: 'i-lucide-file-text',
+        description: 'Display a list of links.',
+        to: '/components/navigation-menu'
+      },
+      {
+        label: 'Pagination',
+        icon: 'i-lucide-file-text',
+        description: 'Display a list of pages.',
+        to: '/components/pagination'
+      },
+      {
+        label: 'Popover',
+        icon: 'i-lucide-file-text',
+        description: 'Display a non-modal dialog that floats around a trigger element.',
+        to: '/components/popover'
+      },
+      {
+        label: 'Progress',
+        icon: 'i-lucide-file-text',
+        description: 'Show a horizontal bar to indicate task progression.',
+        to: '/components/progress'
+      }
+    ]
+  },
+  {
+    label: 'GitHub',
+    icon: 'i-simple-icons-github',
+    badge: '3.8k',
+    to: 'https://github.com/nuxt/ui',
+    target: '_blank'
+  },
+  {
+    label: 'Help',
+    icon: 'i-lucide-circle-help',
+    disabled: true
+  }
+]);
+*/
 
 const currentTrigger = ref('')
 

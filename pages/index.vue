@@ -5,7 +5,7 @@
       <section id="section1" class="w-full h-screen full-view-img-background">
         <div id="section1-figure">
           <h1 class="text-9xl text-shadow-lg">Hello!</h1>
-          <h1 class="text-6xl text-shadow-lg p-10">Welcome to RusticWheels...</h1>
+          <h1 class="text-6xl text-shadow-lg p-10">Welcome to RusticWheels</h1>
         </div>
       </section>
 
@@ -13,7 +13,7 @@
         <div class="grid grid-cols-1 xl:grid-cols-[1fr_1fr] w-9/10 xl:w-4/5 2xl:w-3/5 place-items-center">
           
           <div class="p-5">
-            <img src="https://storage.googleapis.com/rusticwheels/IMG_4459.png" class="object-cover min-w-full min-h-full"/>
+            <img src="https://storage.googleapis.com/rusticwheels/IMG_4459LQ2.jpeg" class="object-cover min-w-full min-h-full"/>
           </div>
 
           <div class="grid grid-rows-flow gap-y-5 text-neutral-700 p-5 xl:p-10 text-xs md:text-sm xl:text-lg">
@@ -65,7 +65,7 @@
   }
 
   #section1{
-    background-image: url('https://storage.googleapis.com/rusticwheels/DSC00718.jpg');
+    background-image: url('https://storage.googleapis.com/rusticwheels/DSC00718LQ2.jpeg');
     mask-image: linear-gradient(black 70%, transparent 100%);
   }
 
