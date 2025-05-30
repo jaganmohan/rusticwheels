@@ -1,7 +1,7 @@
 <template>
   
-  <NavigationMenuRoot v-model="currentTrigger" class="fixed z-[1] flex-auto w-full shadow-md grid grid-flow-col bg-stone-200 h-15 content-center justify-items-center">
-    <NavigationMenuList class="m-0 flex w-full list-none p-1 text-lg gap-4 items-baseline">
+  <NavigationMenuRoot v-model="currentTrigger" orientation="vertical" class="fixed z-[1] flex-auto w-full shadow-md grid grid-flow-col bg-white h-15 content-center justify-items-center">
+    <NavigationMenuList class="m-0 flex w-full list-none p-1 text-lg gap-5 items-baseline">
 
       <NavigationMenuItem>
         <NavigationMenuLink
@@ -13,7 +13,7 @@
 
       <NavigationMenuItem>
         <NavigationMenuLink
-          class="text-grass11 hover:bg-sky-200 focus:shadow-1g block select-none rounded-[4px] text-md font-medium leading-none no-underline outline-none focus:shadow-[0_0_0_2px]"
+          class="text-grass11 hover:bg-sky-200 focus:shadow-1g block select-none rounded-[4px] text-md font-medium leading-none no-underline outline-none focus:shadow-[0_0_0_2px] "
           href="https://instagram.com/rustic_wheels"
         >
           <Icon name="skill-icons:instagram"/>
@@ -40,7 +40,7 @@
           class="text-grass11 hover:bg-sky-200 focus:shadow-1g block select-none rounded-[4px] text-md font-medium leading-none no-underline outline-none focus:shadow-[0_0_0_2px] "
           href="https://github.com/jaganmohan/rusticwheels"
         >
-          <Icon name="logos:github-icon"/>
+          <Icon name="logos:github-icon"/>  
         </NavigationMenuLink>
       </NavigationMenuItem>
 
