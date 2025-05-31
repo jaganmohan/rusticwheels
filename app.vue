@@ -1,7 +1,7 @@
 <template>
   
-  <NavigationMenuRoot v-model="currentTrigger" orientation="vertical" class="fixed z-[1] flex-auto w-full shadow-md grid grid-flow-col bg-white h-15 content-center justify-items-center">
-    <NavigationMenuList class="m-0 flex w-full list-none p-1 text-lg gap-5 items-baseline">
+  <NavigationMenuRoot v-model="currentTrigger" class="z-[1] flex-auto w-full shadow-md grid grid-flow-col bg-white h-15 content-center justify-items-center">
+    <NavigationMenuList class="m-0 flex w-full list-none p-1 gap-3 md:gap-5 items-baseline">
 
       <NavigationMenuItem>
         <NavigationMenuLink
@@ -47,14 +47,13 @@
     </NavigationMenuList>
 
   </NavigationMenuRoot>
-  <div class="h-15 relative bg-white"></div>
 
   <!--<UNavigationMenu :items="items" class="w-full justify-center bg-stone-200 h-15" />-->
 
   <NuxtPage />
 
-  <footer>
-        <p style="margin:auto">© 2025 All rights reserved by Jaganmohan M.</p>
+  <footer class="h-[100px] w-full bg-[#322] text-white content-center text-sm">
+        <div class="w-fit flex m-auto">© 2025 All rights reserved by Jaganmohan M.</div>
   </footer>
 
 </template>
@@ -202,15 +201,6 @@ const currentTrigger = ref('')
 <style>
 
 @import "tailwindcss";
-
-footer {
-    height:100px;
-    display: flex;
-    justify-content: center;
-    padding: 5px;
-    background-color: #322;
-    color: #ffffff;
-}
 
 html{
     scroll-behavior: smooth;

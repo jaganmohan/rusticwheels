@@ -1,11 +1,11 @@
 <template>
   <div class="min-h-screen">
-    <div style="height: auto; width: auto; ">
+    <div class="h-auto w-full" >
 
       <section id="section1" class="w-full h-screen full-view-img-background">
         <div id="section1-figure">
-          <h1 class="text-9xl text-shadow-lg">Hello!</h1>
-          <h1 class="text-6xl text-shadow-lg p-10">Welcome to RusticWheels</h1>
+          <h1 class="text-5xl sm:text-6xl md:text-9xl text-shadow-lg">Hello!</h1>
+          <h1 class="text-2xl sm:text-3xl  md:text-6xl text-shadow-lg p-10">Welcome to RusticWheels</h1>
         </div>
       </section>
 
