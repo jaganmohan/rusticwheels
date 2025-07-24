@@ -9,7 +9,7 @@
         </div>
       </section>
 
-      <section class="w-full min-h-screen bg-neutral-100 place-items-center flex justify-center">
+      <section id="section2" class="w-full min-h-screen bg-neutral-100 place-items-center flex justify-center">
         <div class="grid grid-cols-1 xl:grid-cols-[1fr_1fr] w-9/10 xl:w-4/5 2xl:w-3/5 place-items-center">
           
           <div class="p-5">
@@ -45,6 +45,12 @@
         </div>
       </section>
 
+      <section id="section4" class="w-full min-h-screen grid place-items-center bg-neutral-100">
+        <div class="w-9/10 h-9/10">
+          <iframe src="https://www.google.com/maps/d/embed?mid=1RK8GiBA6Z-b5KDRqc7pjxiznUR2MfNQ&ehbc=2E312F" class="w-full h-full"></iframe>
+        </div>
+      </section>
+
     </div>
   </div>
 </template>
@@ -73,7 +79,7 @@
     background-image: url('https://storage.googleapis.com/rusticwheels/802.jpg');
   }
 
-  #section4{
+  #sectionN{
     background-image: url('https://storage.googleapis.com/rusticwheels/842.jpg');
   }
 
