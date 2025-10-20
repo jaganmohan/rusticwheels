@@ -53,7 +53,7 @@
 
       <section id="section5" class="w-full h-screen full-view-img-background">
         <div id="section5-figure">
-          <h1 class="text-6xl text-shadow-lg">Love You!</h1>
+          <h1 class="text-6xl text-shadow-lg">Best Regards!</h1>
         </div>
       </section>
 
@@ -108,7 +108,7 @@
     text-align: center;
     position: absolute;
     top: 35%;
-    left: 55%;
+    left: 53%;
     transform: translate(-50%, -50%);
     color: whitesmoke;
     z-index: 10;
