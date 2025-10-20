@@ -57,6 +57,9 @@
         </div>
       </section>
 
+      <section id="section6" class="w-full h-screen full-view-img-background">
+      </section>
+
     </div>
   </div>
 </template>
@@ -74,6 +77,7 @@
     width: 100%;
     position: relative;
     margin: auto;
+    z-index: -1;
   }
 
   #section1{
@@ -85,9 +89,14 @@
     background-image: url('https://storage.googleapis.com/rusticwheels/802.jpg');
   }
 
-    #section5{
+  #section5{
     background-image: url('https://storage.googleapis.com/rusticwheels/Junction37_3_small.jpeg');
-    mask-image: linear-gradient(black 70%, transparent 100%);
+    mask-image: linear-gradient(black 60%, transparent 100%);
+  }
+
+  #section6{
+    background-image: url('https://storage.googleapis.com/rusticwheels/Stewart_1_small.jpeg');
+    mask-image: linear-gradient(black 60%, transparent 100%);
   }
 
   #sectionN{
@@ -107,8 +116,8 @@
   #section5-figure{
     text-align: center;
     position: absolute;
-    top: 35%;
-    left: 53%;
+    top: 33%;
+    left: 54%;
     transform: translate(-50%, -50%);
     color: whitesmoke;
     z-index: 10;
