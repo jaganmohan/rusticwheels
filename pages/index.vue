@@ -51,6 +51,12 @@
         </div>
       </section>
 
+      <section id="section5" class="w-full h-screen full-view-img-background">
+        <div id="section5-figure">
+          <h1 class="text-6xl text-shadow-lg">Love You!</h1>
+        </div>
+      </section>
+
     </div>
   </div>
 </template>
@@ -71,12 +77,17 @@
   }
 
   #section1{
-    background-image: url('https://storage.googleapis.com/rusticwheels/DSC00718LQ2.jpeg');
+    background-image: url('https://storage.googleapis.com/rusticwheels/IcefieldParkway_1_small.jpeg');
     mask-image: linear-gradient(black 70%, transparent 100%);
   }
 
   #section3{
     background-image: url('https://storage.googleapis.com/rusticwheels/802.jpg');
+  }
+
+    #section5{
+    background-image: url('https://storage.googleapis.com/rusticwheels/Junction37_3_small.jpeg');
+    mask-image: linear-gradient(black 70%, transparent 100%);
   }
 
   #sectionN{
@@ -89,7 +100,18 @@
     top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: white;
+    color: whitesmoke;
     z-index: 10;
   }
+
+  #section5-figure{
+    text-align: center;
+    position: absolute;
+    top: 35%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    color: whitesmoke;
+    z-index: 10;
+  }
+
   </style>

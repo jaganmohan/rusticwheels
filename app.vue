@@ -5,15 +5,22 @@
 
       <NavigationMenuItem>
         <NavigationMenuLink
-          class="text-sky-700 hover:text-stone-900 focus:shadow-1g block select-none rounded-[4px] text-3xl font-semibold leading-none no-underline outline-none focus:shadow-[0_0_0_2px] hover:underline hover:underline-offset-8"
+          class="text-sky-700 focus:shadow-1g block select-none rounded-[4px] text-3xl font-semibold leading-none no-underline outline-none focus:shadow-[0_0_0_2px] hover:underline hover:underline-offset-8"
         >
           <NuxtLink to="/">RusticWheels</NuxtLink>
+        </NavigationMenuLink>
+      </NavigationMenuItem>
+      <NavigationMenuItem class="hidden sm:block">
+        <NavigationMenuLink
+          class="text-grass11 hover:text-sky-700 focus:shadow-1g block select-none rounded-[4px] text-2xl font-medium leading-none no-underline outline-none focus:shadow-[0_0_0_2px] hover:underline hover:underline-offset-8"
+        >
+          <NuxtLink to="/travel">Travel</NuxtLink>
         </NavigationMenuLink>
       </NavigationMenuItem>
 
       <NavigationMenuItem>
         <NavigationMenuLink
-          class="text-grass11 hover:bg-sky-200 focus:shadow-1g block select-none rounded-[4px] text-md font-medium leading-none no-underline outline-none focus:shadow-[0_0_0_2px] "
+          class="text-grass11 hover:bg-sky-200 focus:shadow-1g block select-none rounded-[4px] md:p-1 text-md font-medium leading-none no-underline outline-none focus:shadow-[0_0_0_2px] "
           href="https://instagram.com/rustic_wheels"
         >
           <Icon name="skill-icons:instagram"/>
@@ -21,7 +28,7 @@
       </NavigationMenuItem>
       <NavigationMenuItem>
         <NavigationMenuLink
-          class="text-grass11 hover:bg-sky-200 focus:shadow-1g block select-none rounded-[4px] text-md font-large leading-none no-underline outline-none focus:shadow-[0_0_0_2px] "
+          class="text-grass11 hover:bg-sky-200 focus:shadow-1g block select-none rounded-[4px] md:p-1 text-md font-large leading-none no-underline outline-none focus:shadow-[0_0_0_2px] "
           href="https://youtube.com/@jaganspace"
         >
           <Icon name="logos:youtube-icon"/>
@@ -29,7 +36,7 @@
       </NavigationMenuItem>
       <NavigationMenuItem>
         <NavigationMenuLink
-          class="text-grass11 hover:bg-sky-200 focus:shadow-1g block select-none rounded-[4px] text-md font-medium leading-none no-underline outline-none focus:shadow-[0_0_0_2px] "
+          class="text-grass11 hover:bg-sky-200 focus:shadow-1g block select-none rounded-[4px] md:p-1 text-md font-medium leading-none no-underline outline-none focus:shadow-[0_0_0_2px] "
           href="https://linkedin.com/in/jaganmohan-m"
         >
           <Icon name="logos:linkedin-icon"/>
@@ -37,7 +44,7 @@
       </NavigationMenuItem>
       <NavigationMenuItem>
         <NavigationMenuLink
-          class="text-grass11 hover:bg-sky-200 focus:shadow-1g block select-none rounded-[4px] text-md font-medium leading-none no-underline outline-none focus:shadow-[0_0_0_2px] "
+          class="text-grass11 hover:bg-sky-200 focus:shadow-1g block select-none rounded-[4px] lg:p-1 text-md font-medium leading-none no-underline outline-none focus:shadow-[0_0_0_2px] "
           href="https://github.com/jaganmohan/rusticwheels"
         >
           <Icon name="logos:github-icon"/>  
