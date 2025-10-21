@@ -29,7 +29,7 @@
       <NavigationMenuItem>
         <NavigationMenuLink
           class="text-grass11 hover:bg-sky-200 focus:shadow-1g block select-none rounded-[4px] md:p-1 text-md font-large leading-none no-underline outline-none focus:shadow-[0_0_0_2px] "
-          href="https://youtube.com/@jaganspace"
+          href="https://youtube.com/@rusticwheels"
         >
           <Icon name="logos:youtube-icon"/>
         </NavigationMenuLink>

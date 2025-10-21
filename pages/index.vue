@@ -57,7 +57,10 @@
         </div>
       </section>
 
-      <section id="section6" class="w-full h-screen full-view-img-background">
+      <section id="section6" class="w-full min-h-screen grid place-items-center bg-neutral-100">
+        <div style="padding: 2%;">
+          <img src="https://storage.googleapis.com/rusticwheels/Stewart_1_small.jpeg" class="w-full h-full" />
+        </div>
       </section>
 
     </div>
@@ -91,11 +94,6 @@
 
   #section5{
     background-image: url('https://storage.googleapis.com/rusticwheels/Junction37_3_small.jpeg');
-    mask-image: linear-gradient(black 60%, transparent 100%);
-  }
-
-  #section6{
-    background-image: url('https://storage.googleapis.com/rusticwheels/Stewart_1_small.jpeg');
     mask-image: linear-gradient(black 60%, transparent 100%);
   }
 
