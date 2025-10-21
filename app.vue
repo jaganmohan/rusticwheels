@@ -10,7 +10,7 @@
           <NuxtLink to="/">RusticWheels</NuxtLink>
         </NavigationMenuLink>
       </NavigationMenuItem>
-      <NavigationMenuItem class="hidden sm:block">
+      <NavigationMenuItem class="hidden">
         <NavigationMenuLink
           class="text-grass11 hover:text-sky-700 focus:shadow-1g block select-none rounded-[4px] text-2xl font-medium leading-none no-underline outline-none focus:shadow-[0_0_0_2px] hover:underline hover:underline-offset-8"
         >
